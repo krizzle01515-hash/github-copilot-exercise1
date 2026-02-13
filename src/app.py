@@ -21,7 +21,7 @@ app.mount("/static", StaticFiles(directory=os.path.join(Path(__file__).parent,
 
 # In-memory activity database 
 
-activities = {
+activities = 
     {
         "Chess Club": {
             "description": "Learn strategies and compete in chess tournaments",
@@ -78,7 +78,7 @@ activities = {
             "participants": ["mia@mergington.edu", "ethan@mergington.edu"]
         }
     }
-}
+
 
 
 @app.get("/")
